@@ -29,9 +29,9 @@
     function DetectAndServe() {
         let os = getMobileOperatingSystem();
         if (os == "Android") {
-            window.location.href = "https://play.google.com/store/search?q=Ficohsa%20app&c=apps&hl=es_419";  // Reemplaza con tu enlace de Play Store
+            window.location.href = "https://play.google.com/store/apps/details?id=com.ficohsa.activities";  // Reemplaza con tu enlace de Play Store
         } else if (os == "iOS") {
-            window.location.href = "https://apps.apple.com/app/tu-app/ficohsa";  // Reemplaza con tu enlace de App Store
+            window.location.href = "https://apps.apple.com/gt/app/ficohsa/id474591239";  // Reemplaza con tu enlace de App Store
         } else {
             window.location.href = "https://secure.ficohsa.com";  // Fallback para otros dispositivos (ej. PC)
         }
